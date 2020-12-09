@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
     <title>Progetto Finale front-end: Bakery</title>
   </head>
@@ -13,6 +14,28 @@
       <!-- sez top progetto -->
       <header>
 
+        <div id="top-header">
+          <img :src="logo" alt="logo" id="logo">
+
+          <nav>
+            <ul>
+              <li v-for= "items in navBar"><a href="#">{{items}}</a></li>
+              <li><i class="fas fa-shopping-cart"></i></li>
+            </ul>
+          </nav>
+
+        </div>
+
+        <div id="left-header">
+          <p>{{headerInfo.intest}}</p>
+
+          <h1>{{headerInfo.titolo}}</h1>
+
+          <p>{{headerInfo.info}}</p>
+
+          <button type="button" name="button">{{headerInfo.button}}</button>
+        </div>
+
       </header>
 
       <!-- sezi centrale progetto -->
@@ -21,7 +44,29 @@
       </main>
 
       <!-- sez finale progetto -->
-      <footer></footer>
+      <footer>
+
+        <div id="left-footer">
+
+          <img :src="logo" alt="logo" id="logo">
+
+          <ul>
+            <li v-for= "items in footerInfo"><a href="#">{{items}}</a></li>
+            <li>
+              <i class="fas fa-shopping-cart"></i>
+              <span id="numAcquisti">0</span>
+            </li>
+          </ul>
+
+          <p>{{copyright}}</p>
+
+        </div>
+
+        <div id="right-footer">
+
+        </div>
+
+      </footer>
 
     </div>
 
