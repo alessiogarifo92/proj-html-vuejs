@@ -14,18 +14,35 @@
       <!-- sez top progetto -->
       <header>
 
+        <!-- sez per logo e navbar -->
         <div id="top-header">
+
           <img :src="logo" alt="logo" id="logo">
 
           <nav>
+
             <ul>
-              <li v-for= "items in navBar"><a href="#">{{items}}</a></li>
-              <li><i class="fas fa-shopping-cart"></i></li>
+
+              <li v-for= "items in navBar">
+
+                <a href="#">{{items}}</a>
+              </li>
+
+              <li>
+
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+
+              </li>
+
             </ul>
+
           </nav>
 
         </div>
 
+        <!-- sez per logo e navbar -->
+
+        <!-- sez info header -->
         <div id="left-header">
           <p>{{headerInfo.intest}}</p>
 
@@ -35,6 +52,8 @@
 
           <button type="button" name="button">{{headerInfo.button}}</button>
         </div>
+
+        <!-- fine sez info header -->
 
       </header>
 
@@ -46,6 +65,7 @@
       <!-- sez finale progetto -->
       <footer>
 
+        <!-- sez sinistra -->
         <div id="left-footer">
 
           <img :src="logo" alt="logo" id="logo">
@@ -62,9 +82,37 @@
 
         </div>
 
+        <!-- fine sez sinistra -->
+
+        <!-- sez destra -->
+
         <div id="right-footer">
 
+          <h2>{{newsLetter}}</h2>
+
+          <div>
+
+            <input type="text" name="" value="" placeholder="Enter email address*">
+
+            <button type="button" name="button">Subscribe</button>
+
+          </div>
+
+          <div id="social-icons">
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+            <a href="#"><i class="fab fa-twitter"></i></a>
+
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+
+          </div>
+
         </div>
+
+        <!-- fine sez destra -->
 
       </footer>
 

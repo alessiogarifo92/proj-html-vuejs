@@ -12,6 +12,7 @@ var app = new Vue({
       button : "Explore our products"
     },
     footerInfo : ["Shop", "About", "Gallery", "Locations", "Journal", "Contact", "Orders"],
-    copyright: "@ Copyright 2012-2020 | Avada Theme by ThemeFusion | All Rigths Reserved | Powered by WordPress"
+    copyright: "@ Copyright 2012-2020 | Avada Theme by ThemeFusion | All Rigths Reserved | Powered by WordPress",
+    newsLetter : "Subscribe to our Newsletter"
   }
 })
