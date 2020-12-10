@@ -13,6 +13,7 @@ var app = new Vue({
     },
     footerInfo : ["Shop", "About", "Gallery", "Locations", "Journal", "Contact", "Orders"],
     copyright: "@ Copyright 2012-2020 | Avada Theme by ThemeFusion | All Rigths Reserved | Powered by WordPress",
-    newsLetter : "Subscribe to our Newsletter"
+    newsLetter : "Subscribe to our Newsletter",
+    socials : [ 'fa-instagram' , 'fa-twitter', 'fa-facebook-f', 'fa-pinterest-p']
   }
 })
