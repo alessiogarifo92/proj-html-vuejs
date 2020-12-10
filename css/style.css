@@ -80,6 +80,106 @@ header{
   color: white;
 }
 
+/* fine header */
+
+/* impostazioni main */
+
+main{
+  margin: 80px 60px;
+}
+
+#our-products{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#our-products div:first-child{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+}
+
+#our-products div:first-child p{
+  color: #bda2f3;
+  font-size: 12px;
+}
+
+#our-products div:first-child h2{
+  color: #5b2ca2;
+  margin: 20px 0;
+}
+
+#our-products div:first-child button{
+  background-color: #5b2ca2;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+#our-products div:first-child button:hover{
+  color: #5b2ca2;
+  background-color: #e9dedc;
+  padding: 10px;
+  border: none;
+}
+
+#our-products div:last-child{
+  position: relative;
+}
+
+
+#our-products div:last-child img{
+  width: 350px;
+  height: 400px;
+  margin-left: 20px;
+}
+
+#our-products div:last-child  span{
+  color: white;
+  font-weight: bolder;
+  background-color: #bda2f3;
+  padding: 5px;
+}
+
+#our-products div:last-child > span:first-child{
+  position: absolute;
+  top: 50%;
+  left: 23px;
+}
+
+#our-products div:last-child > span:last-child{
+  position: absolute;
+  top: 50%;
+  right: 7px;
+}
+
+#cookies-hover{
+  height: 400px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  color: white;
+  text-align: center;
+  opacity: 0;
+}
+
+#cookies-hover:hover{
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#cookies-hover p{
+  margin: 10px 0;
+}
+/* fine main */
+
 /* Impostazioni sez footer */
 
 footer{
