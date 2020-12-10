@@ -514,7 +514,81 @@ main{
   margin-bottom: 10px;
 }
 
+#locations > div:first-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+#locations > div:first-child > p{
+  font-size: 12px;
+}
+
+#locations > div:first-child > h1{
+  color: #5b2ca2;
+  margin: 10px 0 30px;
+}
+
+#locations > div:last-child{
+  display: flex;
+}
+
+#locations > div:last-child img{
+  width: 615px;
+}
+
+#newyork{
+  background-color: lightgrey;
+  padding-bottom: 20px;
+}
+
+#newyork  h1{
+color: #5b2ca2;
+}
+
+#newyork > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+#london{
+  background-color: #f0caa1;
+  padding-bottom: 20px;
+}
+
+#london  h1{
+color: #5b2ca2;
+}
+
+#london > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.contatti{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.contatti p{
+  font-size: 13px;
+  color: #878589;
+}
+
+.contatti button{
+  background-color: white;
+  padding: 10px;
+  color: #5b2ca2;
+  border: none;
+  border-radius: 5px;
+}
 /* fine main */
 
 /* Impostazioni sez footer */
