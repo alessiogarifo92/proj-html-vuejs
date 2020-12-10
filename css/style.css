@@ -73,11 +73,13 @@ header{
   background-color: white;
   padding: 10px;
   border: none;
+  border-radius: 5px;
 }
 
 #left-header button:hover{
   background-color: #5b2ca2;
   color: white;
+  border-radius: 5px;
 }
 
 /* fine header */
@@ -116,6 +118,7 @@ main{
   color: white;
   padding: 10px;
   border: none;
+  border-radius: 5px;
 }
 
 #our-products div:first-child button:hover{
@@ -123,6 +126,7 @@ main{
   background-color: #e9dedc;
   padding: 10px;
   border: none;
+  border-radius: 5px;
 }
 
 #our-products div:last-child{
@@ -177,6 +181,74 @@ main{
 
 #cookies-hover p{
   margin: 10px 0;
+}
+
+
+#corporate-weddings{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0;
+}
+
+#corporate-weddings > p{
+  color: #bda2f3;
+  font-size: 12px;
+}
+
+#corporate-weddings > h2{
+  color: #5b2ca2;
+  margin: 20px 0;
+}
+
+
+#corporate-weddings div img{
+  width: auto;
+  height: 450px;
+  margin-left: 30px;
+}
+
+#corporate-weddings > div{
+  position: relative;
+}
+
+#corporate-weddings div > div{
+  position: absolute;
+  top: 0;
+  left: 30px;
+  width: 486.35px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0;
+}
+
+#corporate-weddings div > div:hover{
+  background-image: url(../img/corporate-hover-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+
+#corporate-weddings div > div > p{
+  font-size: 12px;
+}
+
+#corporate-weddings div > div > h3{
+  margin: 15px 0;
+}
+
+#corporate-weddings div > div > button{
+  background-color: #5b2ca2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }
 /* fine main */
 
@@ -248,6 +320,7 @@ color: #5b2ca2;
   background-color: #5b2ca2;
   padding: 6px;
   border: none;
+  border-radius: 5px;
 }
 
 #social-icons i{
