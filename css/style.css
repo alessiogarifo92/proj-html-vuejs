@@ -541,6 +541,7 @@ main{
 #newyork{
   background-color: lightgrey;
   padding-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 #newyork  h1{
@@ -557,6 +558,7 @@ color: #5b2ca2;
 #london{
   background-color: #f0caa1;
   padding-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 #london  h1{
@@ -589,6 +591,76 @@ color: #5b2ca2;
   border: none;
   border-radius: 5px;
 }
+
+#in-touch{
+  display: flex;
+  margin-bottom: 80px;
+}
+
+#in-touch > div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#in-touch img{
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+#in-touch > div:last-child{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#middle-sec{
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+#middle-sec > div:first-child{
+  background-color: lightgrey;
+  width: 600px;
+  height: 291.533px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#middle-sec > div:first-child > p{
+  font-size: 12px;
+}
+
+#middle-sec > div:first-child > h1{
+  color: #5b2ca2;
+  margin: 15px 0;
+}
+
+#middle-sec > div:first-child > button{
+  background-color: #5b2ca2;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#middle-sec > div:last-child{
+  display: flex;
+}
+
+#middle-sec > div:last-child img{
+  width: 293px;
+  height: 291.533px;
+}
+
+#middle-sec > div:last-child > img:first-child{
+  margin-right: 15px;
+}
+
 /* fine main */
 
 /* Impostazioni sez footer */
