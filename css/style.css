@@ -405,6 +405,74 @@ main{
   margin-bottom: 10px;
 }
 
+#sez2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sez2 > div:first-child{
+  background-image: url(../img/bakery-process-2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 435px;
+  width: 50%;
+  position: relative;
+}
+
+#layer{
+  width: 555px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#layer > div:first-child{
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7%;
+}
+
+#layer > div:first-child > p{
+  font-size: 30px;
+}
+
+#layer > div:last-child{
+  width: 280px;
+  margin: 21% 0 auto 13%;
+  color: white;
+}
+
+#layer > div:last-child > p:first-child{
+  font-size: 10px;
+  color: #e9dedc;
+  margin-bottom: 10px;
+}
+
+#sez2 > div:last-child{
+  height: 435px;
+  width: 50%;
+  background-color: #e9dedc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 90px;
+}
+
+#sez2 > div:last-child > h1{
+  color: #5b2ca2;
+  margin: 10px 0;
+}
+
+#sez2 > div:last-child p{
+  font-size: 12px;
+}
+
+
 /* fine main */
 
 /* Impostazioni sez footer */
