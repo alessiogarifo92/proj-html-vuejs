@@ -203,8 +203,8 @@ main{
 
 
 #corporate-weddings div img{
-  width: auto;
-  height: 450px;
+  width: 580px;
+  height: 600px;
   margin-left: 30px;
 }
 
@@ -212,12 +212,12 @@ main{
   position: relative;
 }
 
-#corporate-weddings div > div{
+#corporate-hover{
   position: absolute;
   top: 0;
   left: 30px;
-  width: 486.35px;
-  height: 450px;
+  width: 580px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -226,8 +226,30 @@ main{
   opacity: 0;
 }
 
-#corporate-weddings div > div:hover{
+#corporate-hover:hover{
   background-image: url(../img/corporate-hover-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+
+#wedding-hover{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 580px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0;
+}
+
+#wedding-hover:hover{
+  background-image: url(../img/wedding-hover-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -250,6 +272,97 @@ main{
   border: none;
   border-radius: 5px;
 }
+
+#products{
+  display: flex;
+  justify-content: space-between;
+}
+
+#products > div:first-child{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#products > div:first-child h2{
+  color: #5b2ca2;
+}
+
+#products > div:first-child  p{
+  font-size: 12px;
+  color: #bda2f3;
+  margin: 20px 0;
+}
+
+#products > div:first-child button{
+  background-color: #5b2ca2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#products > div:last-child{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+#products > div:last-child img{
+  width: 220px;
+  height: 280px;
+  margin-left: 5px;
+}
+
+#products > div:last-child span:first-child{
+  position: absolute;
+  top: 45%;
+  left: 12px;
+}
+
+#products > div:last-child span{
+  position: absolute;
+  top: 45%;
+  right: 5px;
+  width: 20px;
+  color: white;
+  font-weight: bolder;
+  background-color: #bda2f3;
+  padding: 5px;
+}
+
+#choco-hover{
+  position: absolute;
+  top: 0;
+  left: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 220px;
+  height: 280px;
+  opacity: 0;
+}
+
+#choco-hover:hover{
+  opacity: 1;
+}
+
+#products > div:last-child h3{
+  color: #5b2ca2;
+  text-align: center;
+}
+
+#products > div:last-child p:last-child{
+  font-size: 12px;
+  color: #bda2f3;
+  text-align: center;
+}
+
 /* fine main */
 
 /* Impostazioni sez footer */
