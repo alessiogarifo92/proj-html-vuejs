@@ -369,7 +369,7 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
   height: 456px;
-  margin: 80px 0;
+  margin: 80px 0 30px;
 }
 
 #ombreggiato{
@@ -470,6 +470,48 @@ main{
 
 #sez2 > div:last-child p{
   font-size: 12px;
+}
+
+#sez3{
+  background-image: url(../img/bakery-process-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 456px;
+  margin: 30px 0 80px;
+}
+
+#cover{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+#cover > div:first-child{
+  height: 45%;
+  width: 85%;
+  margin-left: 7%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cover > div:first-child p{
+  font-size: 50px;
+}
+
+#cover > div:last-child{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  color: white;
+  margin: 6% 0 0 8%;
+}
+
+#cover > div:last-child > p:first-child{
+  font-size: 8px;
+  color: #e9dedc;
+  margin-bottom: 10px;
 }
 
 
