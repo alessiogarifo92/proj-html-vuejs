@@ -363,6 +363,48 @@ main{
   text-align: center;
 }
 
+#sez1{
+  background-image: url(../img/bakery-process-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 456px;
+  margin: 80px 0;
+}
+
+#ombreggiato{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+#ombreggiato > div:first-child{
+  height: 45%;
+  width: 85%;
+  margin-left: 7%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#ombreggiato > div:first-child p{
+  font-size: 65px;
+}
+
+#ombreggiato > div:last-child{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  color: white;
+  margin: 6% 3% 0 64%;
+}
+
+#ombreggiato > div:last-child > p:first-child{
+  font-size: 8px;
+  color: #e9dedc;
+  margin-bottom: 10px;
+}
+
 /* fine main */
 
 /* Impostazioni sez footer */
