@@ -661,6 +661,37 @@ color: #5b2ca2;
   margin-right: 15px;
 }
 
+#ordina{
+  background-image: url(../img/call-to-action-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 308px;
+  width: 1349px;
+  margin-left: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 28%;
+}
+
+#ordina > p{
+  color: lightgrey;
+  font-size: 12px;
+}
+
+#ordina > h1{
+  color: white;
+  margin: 15px 0 30px;
+}
+
+#ordina > button{
+  background-color: white;
+  padding: 10px;
+  color: #5b2ca2;
+  border: none;
+  border-radius: 5px;
+}
 /* fine main */
 
 /* Impostazioni sez footer */
