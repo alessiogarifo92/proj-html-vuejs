@@ -49,6 +49,56 @@ header{
   color: #5b2ca2;
 }
 
+#demos{
+  position: absolute;
+  top: 21%;
+  right: 1%;
+  width: 65px;
+  height: 65px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow:  0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#demos > i{
+  font-size: 40px;
+}
+
+#demos > p{
+  color: #5b2ca2;
+}
+
+#on-sale{
+  position: absolute;
+  top: 34%;
+  right: 1%;
+  width: 65px;
+  height: 65px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow:  0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#on-sale span{
+  color: green;
+  font-size: 23px;
+  font-weight: bolder;
+}
+
+#on-sale > span:first-child{
+  position: absolute;
+  top: 2px;
+  left: 10px;
+}
+
 #left-header{
   display: flex;
   flex-direction: column;

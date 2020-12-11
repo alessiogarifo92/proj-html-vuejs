@@ -5,6 +5,12 @@ var app = new Vue({
   data : {
     logo : "img/avada-bakery-logo.png",
     navBar : [ "Home", "Shop", "About", "Gallery", "Locations", "Journal", "Contact", "My account"],
+    shop : "fas fa-shopping-cart",
+    demosFolder : "fas fa-folder-open",
+    demosText : "Demos",
+    dollar: "$",
+    price: "39",
+    sale: "on sale",
     headerInfo: {
       intest : "FRESH AND TASTY BAKERY EVERY DAY",
       titolo : "The Perfect Fresh Bread",

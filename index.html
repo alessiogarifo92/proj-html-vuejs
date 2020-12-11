@@ -30,13 +30,30 @@
 
               <li>
 
-                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i :class="shop"></i></a>
 
               </li>
 
             </ul>
 
           </nav>
+
+          <div id="demos">
+
+            <i :class="demosFolder"></i>
+
+            <p><strong>{{demosText}}</strong></p>
+
+          </div>
+
+          <div id="on-sale">
+
+            <span><strong>{{dollar}}</strong></span>
+            <span>{{price}}</span>
+
+            <p>{{sale}}</p>
+
+          </div>
 
         </div>
 
